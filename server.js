@@ -245,10 +245,10 @@ const addEmployee = () => {
                 const managers = data.map(({ id, first_name, last_name }) => ({ name: first_name + " "+ last_name, value: id }));
                 inquirer.prompt([
                   {
-                    type: 'list',
+                    type: 'input',
                     name: 'manager',
                     message: "Who is the employee's manager?",
-                    choices: managers
+                    //choices: managers
                   }
                 ])
                   .then(managerChoice => {
