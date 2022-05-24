@@ -55,6 +55,7 @@ The following video shows an example of the application being used from the comm
 
 To find a video thumbnail that shows the command-line employee management application with a play button overlaying the view, click 👉 [here](https://drive.google.com/file/d/1ld1RCd6qSxS3JSrgESxPtL0L-1Luoo4C/view)
 
+
 ## Installation
 
 You’ll need to use the [MySQL2 package](https://www.npmjs.com/package/mysql2) to connect to your MySQL database and perform queries, the [Inquirer package](https://www.npmjs.com/package/inquirer) to interact with the user via the command line, and the [console.table package](https://www.npmjs.com/package/console.table) to print MySQL rows to the console.
